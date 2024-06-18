@@ -563,3 +563,68 @@ input {
 
 
 /* card ends here  */
+
+/* fixed cards starts here */
+
+.grid-container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  grid-gap: 0px;
+}
+
+.grid-item {
+  margin-top: 20px;
+  place-self: center;
+  height: 420px;
+  width: 550px;
+  border-radius: 80px 0px 80px 0px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: fixed;
+}
+
+.grid-item-1 {
+  background-image: url(./images/caleb-_hnL_961xTk-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.grid-item-2 {
+  background-image: url(./images/eduardo-gorghetto-vJ3KldG86Eo-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.grid-item-3 {
+  background-image: url(./images/caleb-_hnL_961xTk-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.grid-item-4 {
+  background-image: url(./images/rae-u7uOnkXqws4-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.fix-card-upper-background {
+  background-color: #00000055;
+  border-radius: 80px 0px 80px 0px;
+  height: 420px;
+}
+
+.fix-card-upper-text {
+
+  color: white;
+
+}
