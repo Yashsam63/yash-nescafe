@@ -577,25 +577,24 @@ input {
   margin-top: 20px;
   place-self: center;
   height: 420px;
-  width: 550px;
+  width: 95%;
   border-radius: 80px 0px 80px 0px;
   display: flex;
   align-items: center;
   text-align: center;
-  background: fixed;
+  background-attachment: fixed;
 }
 
 .grid-item-1 {
   background-image: url(./images/caleb-_hnL_961xTk-unsplash.jpg);
-  background-repeat: no-repeat;
+    background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
 }
 
 .grid-item-2 {
-  background-image: url(./images/eduardo-gorghetto-vJ3KldG86Eo-unsplash.jpg);
-  background-repeat: no-repeat;
+  background-image: url(./images/caleb-_hnL_961xTk-unsplash.jpg); 
+   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 
@@ -610,19 +609,76 @@ input {
 }
 
 .grid-item-4 {
-  background-image: url(./images/rae-u7uOnkXqws4-unsplash.jpg);
+  background-image: url(./images/caleb-_hnL_961xTk-unsplash.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 
 }
 
-.fix-card-upper-background {
-  background-color: #00000055;
-  border-radius: 80px 0px 80px 0px;
-  height: 420px;
-}
-
 .fix-card-upper-text {
   color: white;
+}
+
+.fix-card-upper-text h1{
+  padding: 20px;
+  font-size: 40px;
+  font-weight: 450;
+  text-shadow: 1px 1px 1px black, 3px 3px 5px ;
+}
+
+.fix-card-upper-text p{
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 250;
+  text-shadow: .1em .1em 0 hsl(200 50% 30%);
+}
+
+
+/* footer starts here  */
+
+.footer-container{
+  margin-top: 5%;
+  background-color: #222;
+  height: 250px;
+  width: 100%;
+ display: grid;
+ place-items: center;
+}
+
+.footer-heading{
+  text-align: center;
+  color: white;
+}
+
+.footer-heading h1 {
+  font-size: 40px;
+  font-weight: 550;
+  padding: 5;
+}
+.footer-heading p {
+  font-size: 20px;
+  font-weight: 350;
+  padding: 5%;
+}
+
+.footer-container-2{
+  height: 200px;
+  background-color: #000000;
+  margin-top: 0.3%;
+  height: 250px;
+  width: 100%;
+}
+.footer-heading-2 h1{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.footer-heading-2 a{
+color: white; 
+}
+
+.footer-heading-3{
+display: flex;
+justify-content: center;
 }
